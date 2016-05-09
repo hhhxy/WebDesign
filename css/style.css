@@ -1,0 +1,40 @@
+.header{
+	height: 400px;
+}
+.font1{
+	font-style: italic;
+	margin-top: -100px;
+}
+.font2{
+	text-align: center;
+}
+.container{
+	margin-top: 50px;
+}
+.title{
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+.conte{
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 50px;
+	font-family:  "华文细黑";
+}
+.row img{
+	margin-top: 50px;
+}
+@media screen and (min-width: 768px){
+	.row img{
+		height: 700px;
+		width: 1140px;
+	}
+}
+@media screen and (max-width: 768px){
+	.row img{
+		height: 300px;
+		width: 500px;
+	}
+}

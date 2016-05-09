@@ -1,0 +1,64 @@
+.block1{
+	background-image: url(images/section_bg.jpg);
+	height: 400px;
+	background-repeat: no-repeat;
+	overflow: auto;
+	margin-top: 20px;
+}	
+.block1 h1{
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	margin-top: 150px;
+	letter-spacing: 2px;
+}
+.block1 h2{
+	text-align: center;
+	font-family: "微软雅黑";
+	color: #fff;
+	font-size: 18px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+}
+.block1 div{
+	height: 45px;
+	width: 200px;
+	text-align: center;
+	background-color: #87b6c4;
+	font-size: 18px;
+	padding-top: 10px;
+	margin: 0 auto;
+	border-radius: 30px;
+	margin-top: 60px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.block1 div:hover{
+	width: 230px;
+	background-color: #f66d52;
+	letter-spacing: 4px;
+	 -webkit-transition: all 0.3s ease;
+	  	-moz-transition: all 0.3s ease;
+	 	transition: all 0.3s ease;
+}
+.block3{
+	margin-top: 100px;
+}
+.block3 h3{
+	font-size: 14px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.block3 input{
+	width: 200px;
+	height: 40px;
+	border-radius: 30px;
+	display: block;
+	margin: 0 auto;
+	border: 2px solid #87b6c4;
+}
+@media screen and (min-width: 768px){
+	.block1{
+		background-size: 100% 400px;
+	}
+}

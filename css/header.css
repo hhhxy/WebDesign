@@ -1,0 +1,16 @@
+*{padding: 0;margin: 0;text-decoration: none;}
+.header{
+	height: 800px;
+	width: auto;
+	background-image: url(images/hero_bg.jpg);	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+.header p{
+	position: absolute;
+	left: 10%;
+	top: 40%;
+	color: #fff;
+	font-size: 60px;
+}
